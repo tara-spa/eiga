@@ -4,7 +4,11 @@
 		"title": "劇場版 呪術廻戦0",
 		"between_time": "8:15～10:15",
 		"theater_name": "TOHOシネマズ新宿",
+<<<<<<< HEAD
 		"screen_num": "7",
+=======
+		"screen_num": "SCREEN7",
+>>>>>>> main
 		"option": "",
 		"eirin": "",
 		"start_datetime": "2022-02-11T23:15:00.000Z",
@@ -15,7 +19,11 @@
 		"title": "鹿の王 ユナと約束の旅",
 		"between_time": "8:20～10:25",
 		"theater_name": "TOHOシネマズ新宿",
+<<<<<<< HEAD
 		"screen_num": "1",
+=======
+		"screen_num": "SCREEN1",
+>>>>>>> main
 		"option": "",
 		"eirin": "",
 		"start_datetime": "2022-02-11T23:20:00.000Z",
@@ -26,7 +34,11 @@
 		"title": "３５５",
 		"between_time": "8:25～10:40",
 		"theater_name": "TOHOシネマズ新宿",
+<<<<<<< HEAD
 		"screen_num": "2",
+=======
+		"screen_num": "SCREEN2",
+>>>>>>> main
 		"option": "字幕",
 		"eirin": "PG12",
 		"start_datetime": "2022-02-11T23:25:00.000Z",
@@ -37,7 +49,11 @@
 		"title": "真夜中乙女戦争",
 		"between_time": "8:25～10:30",
 		"theater_name": "TOHOシネマズ新宿",
+<<<<<<< HEAD
 		"screen_num": "8",
+=======
+		"screen_num": "SCREEN8",
+>>>>>>> main
 		"option": "",
 		"eirin": "",
 		"start_datetime": "2022-02-11T23:25:00.000Z",
@@ -48,7 +64,11 @@
 		"title": "コーダ あいのうた",
 		"between_time": "8:30～10:35",
 		"theater_name": "TOHOシネマズ新宿",
+<<<<<<< HEAD
 		"screen_num": "3",
+=======
+		"screen_num": "SCREEN3",
+>>>>>>> main
 		"option": "字幕",
 		"eirin": "PG12",
 		"start_datetime": "2022-02-11T23:30:00.000Z",
@@ -59,7 +79,11 @@
 		"title": "スパイダーマン ノー・ウェイ・ホーム",
 		"between_time": "8:45～11:30",
 		"theater_name": "TOHOシネマズ新宿",
+<<<<<<< HEAD
 		"screen_num": "5",
+=======
+		"screen_num": "SCREEN5",
+>>>>>>> main
 		"option": "字幕",
 		"eirin": "",
 		"start_datetime": "2022-02-11T23:45:00.000Z",
@@ -70,7 +94,11 @@
 		"title": "ウエスト・サイド・ストーリー",
 		"between_time": "8:50～11:40",
 		"theater_name": "TOHOシネマズ新宿",
+<<<<<<< HEAD
 		"screen_num": "9",
+=======
+		"screen_num": "SCREEN9",
+>>>>>>> main
 		"option": "Dolby-ATMOS 字幕",
 		"eirin": "",
 		"start_datetime": "2022-02-11T23:50:00.000Z",
@@ -81,7 +109,11 @@
 		"title": "フレンチ・ディスパッチ ザ・リバティ、カンザス・イヴニング・サン別冊",
 		"between_time": "8:55～10:55",
 		"theater_name": "TOHOシネマズ新宿",
+<<<<<<< HEAD
 		"screen_num": "11",
+=======
+		"screen_num": "SCREEN11",
+>>>>>>> main
 		"option": "字幕",
 		"eirin": "",
 		"start_datetime": "2022-02-11T23:55:00.000Z",
@@ -92,7 +124,11 @@
 		"title": "コンフィデンスマンJP 英雄編",
 		"between_time": "9:00～11:20",
 		"theater_name": "TOHOシネマズ新宿",
+<<<<<<< HEAD
 		"screen_num": "6",
+=======
+		"screen_num": "SCREEN6",
+>>>>>>> main
 		"option": "",
 		"eirin": "",
 		"start_datetime": "2022-02-12T00:00:00.000Z",
@@ -103,7 +139,11 @@
 		"title": "スタンド・バイ・ミー",
 		"between_time": "9:10～10:50",
 		"theater_name": "TOHOシネマズ新宿",
+<<<<<<< HEAD
 		"screen_num": "12",
+=======
+		"screen_num": "SCREEN12",
+>>>>>>> main
 		"option": "字幕 特別料金",
 		"eirin": "PG12",
 		"start_datetime": "2022-02-12T00:10:00.000Z",
@@ -114,7 +154,11 @@
 		"title": "嘘喰い",
 		"between_time": "9:20～12:05",
 		"theater_name": "TOHOシネマズ新宿",
+<<<<<<< HEAD
 		"screen_num": "4",
+=======
+		"screen_num": "SCREEN4",
+>>>>>>> main
 		"option": "舞台挨拶中継",
 		"eirin": "",
 		"start_datetime": "2022-02-12T00:20:00.000Z",
@@ -125,7 +169,11 @@
 		"title": "ウエスト・サイド・ストーリー",
 		"between_time": "9:20～12:10",
 		"theater_name": "TOHOシネマズ新宿",
+<<<<<<< HEAD
 		"screen_num": "10",
+=======
+		"screen_num": "SCREEN10",
+>>>>>>> main
 		"option": "IMAXレーザー 字幕",
 		"eirin": "",
 		"start_datetime": "2022-02-12T00:20:00.000Z",
@@ -136,7 +184,11 @@
 		"title": "劇場版 呪術廻戦0",
 		"between_time": "10:40～12:40",
 		"theater_name": "TOHOシネマズ新宿",
+<<<<<<< HEAD
 		"screen_num": "7",
+=======
+		"screen_num": "SCREEN7",
+>>>>>>> main
 		"option": "",
 		"eirin": "",
 		"start_datetime": "2022-02-12T01:40:00.000Z",
@@ -147,7 +199,11 @@
 		"title": "ノイズ",
 		"between_time": "10:55～13:15",
 		"theater_name": "TOHOシネマズ新宿",
+<<<<<<< HEAD
 		"screen_num": "8",
+=======
+		"screen_num": "SCREEN8",
+>>>>>>> main
 		"option": "",
 		"eirin": "",
 		"start_datetime": "2022-02-12T01:55:00.000Z",
@@ -158,7 +214,11 @@
 		"title": "３５５",
 		"between_time": "11:00～13:15",
 		"theater_name": "TOHOシネマズ新宿",
+<<<<<<< HEAD
 		"screen_num": "1",
+=======
+		"screen_num": "SCREEN1",
+>>>>>>> main
 		"option": "字幕",
 		"eirin": "PG12",
 		"start_datetime": "2022-02-12T02:00:00.000Z",
@@ -169,7 +229,11 @@
 		"title": "ゴーストバスターズ アフターライフ",
 		"between_time": "11:05～13:25",
 		"theater_name": "TOHOシネマズ新宿",
+<<<<<<< HEAD
 		"screen_num": "3",
+=======
+		"screen_num": "SCREEN3",
+>>>>>>> main
 		"option": "字幕",
 		"eirin": "PG12",
 		"start_datetime": "2022-02-12T02:05:00.000Z",
@@ -180,7 +244,11 @@
 		"title": "劇場版 呪術廻戦0",
 		"between_time": "11:10～13:10",
 		"theater_name": "TOHOシネマズ新宿",
+<<<<<<< HEAD
 		"screen_num": "2",
+=======
+		"screen_num": "SCREEN2",
+>>>>>>> main
 		"option": "MX4D",
 		"eirin": "",
 		"start_datetime": "2022-02-12T02:10:00.000Z",
@@ -191,7 +259,11 @@
 		"title": "フレンチ・ディスパッチ ザ・リバティ、カンザス・イヴニング・サン別冊",
 		"between_time": "11:20～13:20",
 		"theater_name": "TOHOシネマズ新宿",
+<<<<<<< HEAD
 		"screen_num": "11",
+=======
+		"screen_num": "SCREEN11",
+>>>>>>> main
 		"option": "字幕",
 		"eirin": "",
 		"start_datetime": "2022-02-12T02:20:00.000Z",
@@ -202,7 +274,11 @@
 		"title": "コーダ あいのうた",
 		"between_time": "11:25～13:30",
 		"theater_name": "TOHOシネマズ新宿",
+<<<<<<< HEAD
 		"screen_num": "12",
+=======
+		"screen_num": "SCREEN12",
+>>>>>>> main
 		"option": "字幕",
 		"eirin": "PG12",
 		"start_datetime": "2022-02-12T02:25:00.000Z",
@@ -213,7 +289,11 @@
 		"title": "ドライブ・マイ・カー",
 		"between_time": "11:45～14:55",
 		"theater_name": "TOHOシネマズ新宿",
+<<<<<<< HEAD
 		"screen_num": "6",
+=======
+		"screen_num": "SCREEN6",
+>>>>>>> main
 		"option": "",
 		"eirin": "PG12",
 		"start_datetime": "2022-02-12T02:45:00.000Z",
@@ -224,7 +304,11 @@
 		"title": "スパイダーマン ノー・ウェイ・ホーム",
 		"between_time": "11:55～14:40",
 		"theater_name": "TOHOシネマズ新宿",
+<<<<<<< HEAD
 		"screen_num": "5",
+=======
+		"screen_num": "SCREEN5",
+>>>>>>> main
 		"option": "字幕",
 		"eirin": "",
 		"start_datetime": "2022-02-12T02:55:00.000Z",
@@ -235,7 +319,11 @@
 		"title": "ウエスト・サイド・ストーリー",
 		"between_time": "12:25～15:15",
 		"theater_name": "TOHOシネマズ新宿",
+<<<<<<< HEAD
 		"screen_num": "9",
+=======
+		"screen_num": "SCREEN9",
+>>>>>>> main
 		"option": "Dolby-ATMOS 字幕",
 		"eirin": "",
 		"start_datetime": "2022-02-12T03:25:00.000Z",
@@ -246,7 +334,11 @@
 		"title": "コンフィデンスマンJP 英雄編",
 		"between_time": "12:30～14:50",
 		"theater_name": "TOHOシネマズ新宿",
+<<<<<<< HEAD
 		"screen_num": "4",
+=======
+		"screen_num": "SCREEN4",
+>>>>>>> main
 		"option": "",
 		"eirin": "",
 		"start_datetime": "2022-02-12T03:30:00.000Z",
@@ -257,7 +349,11 @@
 		"title": "劇場版 呪術廻戦0",
 		"between_time": "12:35～14:35",
 		"theater_name": "TOHOシネマズ新宿",
+<<<<<<< HEAD
 		"screen_num": "10",
+=======
+		"screen_num": "SCREEN10",
+>>>>>>> main
 		"option": "IMAXレーザー",
 		"eirin": "",
 		"start_datetime": "2022-02-12T03:35:00.000Z",
@@ -268,7 +364,11 @@
 		"title": "劇場版 呪術廻戦0",
 		"between_time": "13:05～15:05",
 		"theater_name": "TOHOシネマズ新宿",
+<<<<<<< HEAD
 		"screen_num": "7",
+=======
+		"screen_num": "SCREEN7",
+>>>>>>> main
 		"option": "",
 		"eirin": "",
 		"start_datetime": "2022-02-12T04:05:00.000Z",
@@ -279,7 +379,11 @@
 		"title": "劇場版 呪術廻戦0",
 		"between_time": "13:35～15:35",
 		"theater_name": "TOHOシネマズ新宿",
+<<<<<<< HEAD
 		"screen_num": "2",
+=======
+		"screen_num": "SCREEN2",
+>>>>>>> main
 		"option": "MX4D",
 		"eirin": "",
 		"start_datetime": "2022-02-12T04:35:00.000Z",
@@ -290,7 +394,11 @@
 		"title": "鹿の王 ユナと約束の旅",
 		"between_time": "13:40～15:45",
 		"theater_name": "TOHOシネマズ新宿",
+<<<<<<< HEAD
 		"screen_num": "1",
+=======
+		"screen_num": "SCREEN1",
+>>>>>>> main
 		"option": "",
 		"eirin": "",
 		"start_datetime": "2022-02-12T04:40:00.000Z",
@@ -301,7 +409,11 @@
 		"title": "真夜中乙女戦争",
 		"between_time": "13:40～15:45",
 		"theater_name": "TOHOシネマズ新宿",
+<<<<<<< HEAD
 		"screen_num": "8",
+=======
+		"screen_num": "SCREEN8",
+>>>>>>> main
 		"option": "",
 		"eirin": "",
 		"start_datetime": "2022-02-12T04:40:00.000Z",
@@ -312,7 +424,11 @@
 		"title": "ゴーストバスターズ アフターライフ",
 		"between_time": "13:45～16:05",
 		"theater_name": "TOHOシネマズ新宿",
+<<<<<<< HEAD
 		"screen_num": "11",
+=======
+		"screen_num": "SCREEN11",
+>>>>>>> main
 		"option": "字幕",
 		"eirin": "PG12",
 		"start_datetime": "2022-02-12T04:45:00.000Z",
@@ -323,7 +439,11 @@
 		"title": "嘘喰い",
 		"between_time": "13:50～16:00",
 		"theater_name": "TOHOシネマズ新宿",
+<<<<<<< HEAD
 		"screen_num": "3",
+=======
+		"screen_num": "SCREEN3",
+>>>>>>> main
 		"option": "",
 		"eirin": "",
 		"start_datetime": "2022-02-12T04:50:00.000Z",
@@ -334,7 +454,11 @@
 		"title": "前科者",
 		"between_time": "13:55～16:20",
 		"theater_name": "TOHOシネマズ新宿",
+<<<<<<< HEAD
 		"screen_num": "12",
+=======
+		"screen_num": "SCREEN12",
+>>>>>>> main
 		"option": "",
 		"eirin": "PG12",
 		"start_datetime": "2022-02-12T04:55:00.000Z",
@@ -345,7 +469,11 @@
 		"title": "ウエスト・サイド・ストーリー",
 		"between_time": "15:05～17:55",
 		"theater_name": "TOHOシネマズ新宿",
+<<<<<<< HEAD
 		"screen_num": "5",
+=======
+		"screen_num": "SCREEN5",
+>>>>>>> main
 		"option": "字幕",
 		"eirin": "",
 		"start_datetime": "2022-02-12T06:05:00.000Z",
@@ -356,7 +484,11 @@
 		"title": "スパイダーマン ノー・ウェイ・ホーム",
 		"between_time": "15:10～17:55",
 		"theater_name": "TOHOシネマズ新宿",
+<<<<<<< HEAD
 		"screen_num": "10",
+=======
+		"screen_num": "SCREEN10",
+>>>>>>> main
 		"option": "IMAXレーザー 字幕",
 		"eirin": "",
 		"start_datetime": "2022-02-12T06:10:00.000Z",
@@ -367,7 +499,11 @@
 		"title": "コンフィデンスマンJP 英雄編",
 		"between_time": "15:15～17:35",
 		"theater_name": "TOHOシネマズ新宿",
+<<<<<<< HEAD
 		"screen_num": "4",
+=======
+		"screen_num": "SCREEN4",
+>>>>>>> main
 		"option": "",
 		"eirin": "",
 		"start_datetime": "2022-02-12T06:15:00.000Z",
@@ -378,7 +514,11 @@
 		"title": "バイオハザード：ウェルカム・トゥ・ラクーンシティ",
 		"between_time": "15:20～17:20",
 		"theater_name": "TOHOシネマズ新宿",
+<<<<<<< HEAD
 		"screen_num": "6",
+=======
+		"screen_num": "SCREEN6",
+>>>>>>> main
 		"option": "字幕",
 		"eirin": "PG12",
 		"start_datetime": "2022-02-12T06:20:00.000Z",
@@ -389,7 +529,11 @@
 		"title": "劇場版 呪術廻戦0",
 		"between_time": "15:30～17:30",
 		"theater_name": "TOHOシネマズ新宿",
+<<<<<<< HEAD
 		"screen_num": "7",
+=======
+		"screen_num": "SCREEN7",
+>>>>>>> main
 		"option": "",
 		"eirin": "",
 		"start_datetime": "2022-02-12T06:30:00.000Z",
@@ -400,7 +544,11 @@
 		"title": "劇場版 呪術廻戦0",
 		"between_time": "15:55～18:40",
 		"theater_name": "TOHOシネマズ新宿",
+<<<<<<< HEAD
 		"screen_num": "9",
+=======
+		"screen_num": "SCREEN9",
+>>>>>>> main
 		"option": "舞台挨拶中継",
 		"eirin": "",
 		"start_datetime": "2022-02-12T06:55:00.000Z",
@@ -411,7 +559,11 @@
 		"title": "劇場版 呪術廻戦0",
 		"between_time": "16:05～18:05",
 		"theater_name": "TOHOシネマズ新宿",
+<<<<<<< HEAD
 		"screen_num": "2",
+=======
+		"screen_num": "SCREEN2",
+>>>>>>> main
 		"option": "MX4D",
 		"eirin": "",
 		"start_datetime": "2022-02-12T07:05:00.000Z",
@@ -422,7 +574,11 @@
 		"title": "鹿の王 ユナと約束の旅",
 		"between_time": "16:10～18:15",
 		"theater_name": "TOHOシネマズ新宿",
+<<<<<<< HEAD
 		"screen_num": "1",
+=======
+		"screen_num": "SCREEN1",
+>>>>>>> main
 		"option": "",
 		"eirin": "",
 		"start_datetime": "2022-02-12T07:10:00.000Z",
@@ -433,7 +589,11 @@
 		"title": "ハウス・オブ・グッチ",
 		"between_time": "16:20～19:15",
 		"theater_name": "TOHOシネマズ新宿",
+<<<<<<< HEAD
 		"screen_num": "8",
+=======
+		"screen_num": "SCREEN8",
+>>>>>>> main
 		"option": "字幕",
 		"eirin": "PG12",
 		"start_datetime": "2022-02-12T07:20:00.000Z",
@@ -444,7 +604,11 @@
 		"title": "嘘喰い",
 		"between_time": "16:25～18:35",
 		"theater_name": "TOHOシネマズ新宿",
+<<<<<<< HEAD
 		"screen_num": "3",
+=======
+		"screen_num": "SCREEN3",
+>>>>>>> main
 		"option": "",
 		"eirin": "",
 		"start_datetime": "2022-02-12T07:25:00.000Z",
@@ -455,7 +619,11 @@
 		"title": "フレンチ・ディスパッチ ザ・リバティ、カンザス・イヴニング・サン別冊",
 		"between_time": "16:30～18:30",
 		"theater_name": "TOHOシネマズ新宿",
+<<<<<<< HEAD
 		"screen_num": "11",
+=======
+		"screen_num": "SCREEN11",
+>>>>>>> main
 		"option": "字幕",
 		"eirin": "",
 		"start_datetime": "2022-02-12T07:30:00.000Z",
@@ -466,7 +634,11 @@
 		"title": "ノイズ",
 		"between_time": "16:45～19:05",
 		"theater_name": "TOHOシネマズ新宿",
+<<<<<<< HEAD
 		"screen_num": "12",
+=======
+		"screen_num": "SCREEN12",
+>>>>>>> main
 		"option": "",
 		"eirin": "",
 		"start_datetime": "2022-02-12T07:45:00.000Z",
@@ -477,7 +649,11 @@
 		"title": "劇場版 呪術廻戦0",
 		"between_time": "17:50～19:50",
 		"theater_name": "TOHOシネマズ新宿",
+<<<<<<< HEAD
 		"screen_num": "6",
+=======
+		"screen_num": "SCREEN6",
+>>>>>>> main
 		"option": "",
 		"eirin": "",
 		"start_datetime": "2022-02-12T08:50:00.000Z",
@@ -488,7 +664,11 @@
 		"title": "コンフィデンスマンJP 英雄編",
 		"between_time": "18:00～20:20",
 		"theater_name": "TOHOシネマズ新宿",
+<<<<<<< HEAD
 		"screen_num": "4",
+=======
+		"screen_num": "SCREEN4",
+>>>>>>> main
 		"option": "",
 		"eirin": "",
 		"start_datetime": "2022-02-12T09:00:00.000Z",
@@ -499,7 +679,11 @@
 		"title": "スパイダーマン ノー・ウェイ・ホーム",
 		"between_time": "18:20～21:05",
 		"theater_name": "TOHOシネマズ新宿",
+<<<<<<< HEAD
 		"screen_num": "5",
+=======
+		"screen_num": "SCREEN5",
+>>>>>>> main
 		"option": "字幕",
 		"eirin": "",
 		"start_datetime": "2022-02-12T09:20:00.000Z",
@@ -510,7 +694,11 @@
 		"title": "ザ・ビートルズ GET BACK：ルーフトップ・コンサート",
 		"between_time": "18:20～19:35",
 		"theater_name": "TOHOシネマズ新宿",
+<<<<<<< HEAD
 		"screen_num": "10",
+=======
+		"screen_num": "SCREEN10",
+>>>>>>> main
 		"option": "IMAX 字幕",
 		"eirin": "",
 		"start_datetime": "2022-02-12T09:20:00.000Z",
@@ -521,7 +709,11 @@
 		"title": "劇場版 呪術廻戦0",
 		"between_time": "18:30～20:30",
 		"theater_name": "TOHOシネマズ新宿",
+<<<<<<< HEAD
 		"screen_num": "2",
+=======
+		"screen_num": "SCREEN2",
+>>>>>>> main
 		"option": "MX4D",
 		"eirin": "",
 		"start_datetime": "2022-02-12T09:30:00.000Z",
@@ -532,7 +724,11 @@
 		"title": "３５５",
 		"between_time": "18:40～20:55",
 		"theater_name": "TOHOシネマズ新宿",
+<<<<<<< HEAD
 		"screen_num": "1",
+=======
+		"screen_num": "SCREEN1",
+>>>>>>> main
 		"option": "字幕",
 		"eirin": "PG12",
 		"start_datetime": "2022-02-12T09:40:00.000Z",
@@ -543,7 +739,11 @@
 		"title": "ゴーストバスターズ アフターライフ",
 		"between_time": "18:55～21:15",
 		"theater_name": "TOHOシネマズ新宿",
+<<<<<<< HEAD
 		"screen_num": "11",
+=======
+		"screen_num": "SCREEN11",
+>>>>>>> main
 		"option": "字幕",
 		"eirin": "PG12",
 		"start_datetime": "2022-02-12T09:55:00.000Z",
@@ -554,7 +754,11 @@
 		"title": "嘘喰い",
 		"between_time": "19:00～21:10",
 		"theater_name": "TOHOシネマズ新宿",
+<<<<<<< HEAD
 		"screen_num": "3",
+=======
+		"screen_num": "SCREEN3",
+>>>>>>> main
 		"option": "",
 		"eirin": "",
 		"start_datetime": "2022-02-12T10:00:00.000Z",
@@ -565,7 +769,11 @@
 		"title": "ウエスト・サイド・ストーリー",
 		"between_time": "19:10～22:00",
 		"theater_name": "TOHOシネマズ新宿",
+<<<<<<< HEAD
 		"screen_num": "9",
+=======
+		"screen_num": "SCREEN9",
+>>>>>>> main
 		"option": "Dolby-ATMOS 字幕",
 		"eirin": "",
 		"start_datetime": "2022-02-12T10:10:00.000Z",
@@ -576,7 +784,11 @@
 		"title": "コーダ あいのうた",
 		"between_time": "19:30～21:35",
 		"theater_name": "TOHOシネマズ新宿",
+<<<<<<< HEAD
 		"screen_num": "12",
+=======
+		"screen_num": "SCREEN12",
+>>>>>>> main
 		"option": "字幕",
 		"eirin": "PG12",
 		"start_datetime": "2022-02-12T10:30:00.000Z",
@@ -587,7 +799,11 @@
 		"title": "Still Dreamin ～布袋寅泰情熱と栄光のギタリズム～",
 		"between_time": "19:45～21:25",
 		"theater_name": "TOHOシネマズ新宿",
+<<<<<<< HEAD
 		"screen_num": "8",
+=======
+		"screen_num": "SCREEN8",
+>>>>>>> main
 		"option": "特別料金",
 		"eirin": "",
 		"start_datetime": "2022-02-12T10:45:00.000Z",
@@ -598,7 +814,11 @@
 		"title": "ウエスト・サイド・ストーリー",
 		"between_time": "20:10～23:00",
 		"theater_name": "TOHOシネマズ新宿",
+<<<<<<< HEAD
 		"screen_num": "10",
+=======
+		"screen_num": "SCREEN10",
+>>>>>>> main
 		"option": "IMAXレーザー 字幕",
 		"eirin": "",
 		"start_datetime": "2022-02-12T11:10:00.000Z",
@@ -609,7 +829,11 @@
 		"title": "バイオハザード：ウェルカム・トゥ・ラクーンシティ",
 		"between_time": "20:20～22:20",
 		"theater_name": "TOHOシネマズ新宿",
+<<<<<<< HEAD
 		"screen_num": "6",
+=======
+		"screen_num": "SCREEN6",
+>>>>>>> main
 		"option": "字幕",
 		"eirin": "PG12",
 		"start_datetime": "2022-02-12T11:20:00.000Z",
@@ -620,7 +844,11 @@
 		"title": "コンフィデンスマンJP 英雄編",
 		"between_time": "20:45～23:05",
 		"theater_name": "TOHOシネマズ新宿",
+<<<<<<< HEAD
 		"screen_num": "4",
+=======
+		"screen_num": "SCREEN4",
+>>>>>>> main
 		"option": "",
 		"eirin": "",
 		"start_datetime": "2022-02-12T11:45:00.000Z",
@@ -631,7 +859,11 @@
 		"title": "劇場版 呪術廻戦0",
 		"between_time": "20:55～22:55",
 		"theater_name": "TOHOシネマズ新宿",
+<<<<<<< HEAD
 		"screen_num": "2",
+=======
+		"screen_num": "SCREEN2",
+>>>>>>> main
 		"option": "MX4D",
 		"eirin": "",
 		"start_datetime": "2022-02-12T11:55:00.000Z",
@@ -642,7 +874,11 @@
 		"title": "鹿の王 ユナと約束の旅",
 		"between_time": "21:20～23:25",
 		"theater_name": "TOHOシネマズ新宿",
+<<<<<<< HEAD
 		"screen_num": "1",
+=======
+		"screen_num": "SCREEN1",
+>>>>>>> main
 		"option": "",
 		"eirin": "",
 		"start_datetime": "2022-02-12T12:20:00.000Z",
@@ -653,7 +889,11 @@
 		"title": "スパイダーマン ノー・ウェイ・ホーム",
 		"between_time": "21:30～24:15",
 		"theater_name": "TOHOシネマズ新宿",
+<<<<<<< HEAD
 		"screen_num": "5",
+=======
+		"screen_num": "SCREEN5",
+>>>>>>> main
 		"option": "字幕",
 		"eirin": "",
 		"start_datetime": "2022-02-12T12:30:00.000Z",
@@ -664,7 +904,11 @@
 		"title": "嘘喰い",
 		"between_time": "21:35～23:45",
 		"theater_name": "TOHOシネマズ新宿",
+<<<<<<< HEAD
 		"screen_num": "3",
+=======
+		"screen_num": "SCREEN3",
+>>>>>>> main
 		"option": "",
 		"eirin": "",
 		"start_datetime": "2022-02-12T12:35:00.000Z",
@@ -675,7 +919,11 @@
 		"title": "フレンチ・ディスパッチ ザ・リバティ、カンザス・イヴニング・サン別冊",
 		"between_time": "21:40～23:40",
 		"theater_name": "TOHOシネマズ新宿",
+<<<<<<< HEAD
 		"screen_num": "11",
+=======
+		"screen_num": "SCREEN11",
+>>>>>>> main
 		"option": "字幕",
 		"eirin": "",
 		"start_datetime": "2022-02-12T12:40:00.000Z",
@@ -686,7 +934,11 @@
 		"title": "劇場版 呪術廻戦0",
 		"between_time": "21:50～23:50",
 		"theater_name": "TOHOシネマズ新宿",
+<<<<<<< HEAD
 		"screen_num": "7",
+=======
+		"screen_num": "SCREEN7",
+>>>>>>> main
 		"option": "",
 		"eirin": "",
 		"start_datetime": "2022-02-12T12:50:00.000Z",
@@ -697,7 +949,11 @@
 		"title": "ノイズ",
 		"between_time": "22:00～24:20",
 		"theater_name": "TOHOシネマズ新宿",
+<<<<<<< HEAD
 		"screen_num": "8",
+=======
+		"screen_num": "SCREEN8",
+>>>>>>> main
 		"option": "",
 		"eirin": "",
 		"start_datetime": "2022-02-12T13:00:00.000Z",
@@ -708,7 +964,11 @@
 		"title": "前科者",
 		"between_time": "22:10～24:35",
 		"theater_name": "TOHOシネマズ新宿",
+<<<<<<< HEAD
 		"screen_num": "12",
+=======
+		"screen_num": "SCREEN12",
+>>>>>>> main
 		"option": "",
 		"eirin": "PG12",
 		"start_datetime": "2022-02-12T13:10:00.000Z",
@@ -719,7 +979,11 @@
 		"title": "ウエスト・サイド・ストーリー",
 		"between_time": "22:30～25:20",
 		"theater_name": "TOHOシネマズ新宿",
+<<<<<<< HEAD
 		"screen_num": "9",
+=======
+		"screen_num": "SCREEN9",
+>>>>>>> main
 		"option": "Dolby-ATMOS 字幕",
 		"eirin": "",
 		"start_datetime": "2022-02-12T13:30:00.000Z",
@@ -730,7 +994,11 @@
 		"title": "真夜中乙女戦争",
 		"between_time": "22:45～24:50",
 		"theater_name": "TOHOシネマズ新宿",
+<<<<<<< HEAD
 		"screen_num": "6",
+=======
+		"screen_num": "SCREEN6",
+>>>>>>> main
 		"option": "",
 		"eirin": "",
 		"start_datetime": "2022-02-12T13:45:00.000Z",
@@ -741,7 +1009,11 @@
 		"title": "劇場版 呪術廻戦0",
 		"between_time": "23:20～25:20",
 		"theater_name": "TOHOシネマズ新宿",
+<<<<<<< HEAD
 		"screen_num": "2",
+=======
+		"screen_num": "SCREEN2",
+>>>>>>> main
 		"option": "MX4D",
 		"eirin": "",
 		"start_datetime": "2022-02-12T14:20:00.000Z",
@@ -752,7 +1024,11 @@
 		"title": "コンフィデンスマンJP 英雄編",
 		"between_time": "23:30～25:50",
 		"theater_name": "TOHOシネマズ新宿",
+<<<<<<< HEAD
 		"screen_num": "4",
+=======
+		"screen_num": "SCREEN4",
+>>>>>>> main
 		"option": "",
 		"eirin": "",
 		"start_datetime": "2022-02-12T14:30:00.000Z",
@@ -763,7 +1039,11 @@
 		"title": "ウエスト・サイド・ストーリー",
 		"between_time": "23:30～26:20",
 		"theater_name": "TOHOシネマズ新宿",
+<<<<<<< HEAD
 		"screen_num": "10",
+=======
+		"screen_num": "SCREEN10",
+>>>>>>> main
 		"option": "IMAXレーザー 字幕",
 		"eirin": "",
 		"start_datetime": "2022-02-12T14:30:00.000Z",
@@ -774,7 +1054,11 @@
 		"title": "３５５",
 		"between_time": "23:50～26:05",
 		"theater_name": "TOHOシネマズ新宿",
+<<<<<<< HEAD
 		"screen_num": "1",
+=======
+		"screen_num": "SCREEN1",
+>>>>>>> main
 		"option": "字幕",
 		"eirin": "PG12",
 		"start_datetime": "2022-02-12T14:50:00.000Z",
@@ -785,7 +1069,11 @@
 		"title": "ゴーストバスターズ アフターライフ",
 		"between_time": "24:05～26:25",
 		"theater_name": "TOHOシネマズ新宿",
+<<<<<<< HEAD
 		"screen_num": "11",
+=======
+		"screen_num": "SCREEN11",
+>>>>>>> main
 		"option": "字幕",
 		"eirin": "PG12",
 		"start_datetime": "2022-02-12T15:05:00.000Z",
@@ -796,7 +1084,11 @@
 		"title": "嘘喰い",
 		"between_time": "24:10～26:20",
 		"theater_name": "TOHOシネマズ新宿",
+<<<<<<< HEAD
 		"screen_num": "3",
+=======
+		"screen_num": "SCREEN3",
+>>>>>>> main
 		"option": "",
 		"eirin": "",
 		"start_datetime": "2022-02-12T15:10:00.000Z",
@@ -807,7 +1099,11 @@
 		"title": "劇場版 呪術廻戦0",
 		"between_time": "24:25～26:25",
 		"theater_name": "TOHOシネマズ新宿",
+<<<<<<< HEAD
 		"screen_num": "7",
+=======
+		"screen_num": "SCREEN7",
+>>>>>>> main
 		"option": "",
 		"eirin": "",
 		"start_datetime": "2022-02-12T15:25:00.000Z",
@@ -818,7 +1114,11 @@
 		"title": "スパイダーマン ノー・ウェイ・ホーム",
 		"between_time": "24:40～27:25",
 		"theater_name": "TOHOシネマズ新宿",
+<<<<<<< HEAD
 		"screen_num": "5",
+=======
+		"screen_num": "SCREEN5",
+>>>>>>> main
 		"option": "字幕",
 		"eirin": "",
 		"start_datetime": "2022-02-12T15:40:00.000Z",
@@ -829,7 +1129,11 @@
 		"title": "真夜中乙女戦争",
 		"between_time": "24:50～26:55",
 		"theater_name": "TOHOシネマズ新宿",
+<<<<<<< HEAD
 		"screen_num": "8",
+=======
+		"screen_num": "SCREEN8",
+>>>>>>> main
 		"option": "",
 		"eirin": "",
 		"start_datetime": "2022-02-12T15:50:00.000Z",
@@ -840,7 +1144,11 @@
 		"title": "コーダ あいのうた",
 		"between_time": "25:00～27:05",
 		"theater_name": "TOHOシネマズ新宿",
+<<<<<<< HEAD
 		"screen_num": "12",
+=======
+		"screen_num": "SCREEN12",
+>>>>>>> main
 		"option": "字幕",
 		"eirin": "PG12",
 		"start_datetime": "2022-02-12T16:00:00.000Z",
@@ -851,7 +1159,11 @@
 		"title": "バイオハザード：ウェルカム・トゥ・ラクーンシティ",
 		"between_time": "25:15～27:15",
 		"theater_name": "TOHOシネマズ新宿",
+<<<<<<< HEAD
 		"screen_num": "6",
+=======
+		"screen_num": "SCREEN6",
+>>>>>>> main
 		"option": "字幕",
 		"eirin": "PG12",
 		"start_datetime": "2022-02-12T16:15:00.000Z",
@@ -862,7 +1174,11 @@
 		"title": "劇場版 呪術廻戦0",
 		"between_time": "25:45～27:45",
 		"theater_name": "TOHOシネマズ新宿",
+<<<<<<< HEAD
 		"screen_num": "2",
+=======
+		"screen_num": "SCREEN2",
+>>>>>>> main
 		"option": "MX4D",
 		"eirin": "",
 		"start_datetime": "2022-02-12T16:45:00.000Z",
@@ -873,7 +1189,11 @@
 		"title": "ウエスト・サイド・ストーリー",
 		"between_time": "25:50～28:40",
 		"theater_name": "TOHOシネマズ新宿",
+<<<<<<< HEAD
 		"screen_num": "9",
+=======
+		"screen_num": "SCREEN9",
+>>>>>>> main
 		"option": "Dolby-ATMOS 字幕",
 		"eirin": "",
 		"start_datetime": "2022-02-12T16:50:00.000Z",
@@ -884,7 +1204,11 @@
 		"title": "コンフィデンスマンJP 英雄編",
 		"between_time": "26:15～28:35",
 		"theater_name": "TOHOシネマズ新宿",
+<<<<<<< HEAD
 		"screen_num": "4",
+=======
+		"screen_num": "SCREEN4",
+>>>>>>> main
 		"option": "",
 		"eirin": "",
 		"start_datetime": "2022-02-12T17:15:00.000Z",
@@ -895,7 +1219,11 @@
 		"title": "鹿の王 ユナと約束の旅",
 		"between_time": "26:30～28:35",
 		"theater_name": "TOHOシネマズ新宿",
+<<<<<<< HEAD
 		"screen_num": "1",
+=======
+		"screen_num": "SCREEN1",
+>>>>>>> main
 		"option": "",
 		"eirin": "",
 		"start_datetime": "2022-02-12T17:30:00.000Z",
@@ -906,7 +1234,11 @@
 		"title": "嘘喰い",
 		"between_time": "26:45～28:55",
 		"theater_name": "TOHOシネマズ新宿",
+<<<<<<< HEAD
 		"screen_num": "3",
+=======
+		"screen_num": "SCREEN3",
+>>>>>>> main
 		"option": "",
 		"eirin": "",
 		"start_datetime": "2022-02-12T17:45:00.000Z",
@@ -917,7 +1249,11 @@
 		"title": "ウエスト・サイド・ストーリー",
 		"between_time": "26:45～29:35",
 		"theater_name": "TOHOシネマズ新宿",
+<<<<<<< HEAD
 		"screen_num": "10",
+=======
+		"screen_num": "SCREEN10",
+>>>>>>> main
 		"option": "IMAXレーザー 字幕",
 		"eirin": "",
 		"start_datetime": "2022-02-12T17:45:00.000Z",
@@ -928,7 +1264,11 @@
 		"title": "劇場版 呪術廻戦0",
 		"between_time": "26:50～28:50",
 		"theater_name": "TOHOシネマズ新宿",
+<<<<<<< HEAD
 		"screen_num": "7",
+=======
+		"screen_num": "SCREEN7",
+>>>>>>> main
 		"option": "",
 		"eirin": "",
 		"start_datetime": "2022-02-12T17:50:00.000Z",
@@ -939,7 +1279,11 @@
 		"title": "フレンチ・ディスパッチ ザ・リバティ、カンザス・イヴニング・サン別冊",
 		"between_time": "26:50～28:50",
 		"theater_name": "TOHOシネマズ新宿",
+<<<<<<< HEAD
 		"screen_num": "11",
+=======
+		"screen_num": "SCREEN11",
+>>>>>>> main
 		"option": "字幕",
 		"eirin": "",
 		"start_datetime": "2022-02-12T17:50:00.000Z",
