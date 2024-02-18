@@ -1,1 +1,237 @@
+<style>
+	@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@600&display=swap');
+	@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@600&display=swap');
 
+	html, body, div, span, object, iframe,
+	h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+	abbr, address, cite, code,
+	del, dfn, em, img, ins, kbd, q, samp,
+	small, strong, sub, sup, var,
+	b, i,
+	dl, dt, dd, ol, ul, li,
+	fieldset, form, label, legend,
+	table, caption, tbody, tfoot, thead, tr, th, td,
+	article, aside, canvas, details, figcaption, figure, 
+	footer, header, hgroup, menu, nav, section, summary,
+	time, mark, audio, video {
+		margin:0;
+		padding:0;
+		border:0;
+		outline:0;
+		font-size:100%;
+		vertical-align:baseline;
+		background:transparent;
+	}
+
+	body{
+		font-family: 'Noto Serif JP', serif;
+		//font-family: 'Noto Sans JP', serif;
+		margin: 0;
+	}
+	main{
+		margin: 3px;
+	}
+
+	h1{
+		margin: 0px;
+		padding: 5px 5px 5px 10px;
+		font-size:1.5em;
+	}
+
+	.timeschedule{
+		list-style: none;
+		padding-inline-start: 0px;
+		overflow: auto;
+		scroll-snap-type: x;
+		display: flex;
+		align-content:flex-start;
+		padding: 0px 10px 10px 10px;
+		overflow-y: scroll;
+		/*スクロールバー非表示（IE・Edge）*/
+		-ms-overflow-style: none;
+		/*スクロールバー非表示（Firefox）*/
+		scrollbar-width: none;
+		//text-align: center;
+		//border-top: .5px solid #888888;
+	}
+
+	.timeschedule::-webkit-scrollbar{
+		display:none;
+	}
+
+	#timeschedule2{
+		margin: 0px 5px 5px 0px;
+		width: 260px;
+	}
+	
+	#timeschedule2 h2{
+		margin: 0px;
+		font-size:0.8em;
+	}
+
+	.title-list{
+		list-style: none;
+		padding-inline-start: 0px;
+		width: auto;
+		height: 160px;
+		overflow: scroll;
+		//border: .5px solid #666666;
+		//display: none;
+	}
+	.title-list li{
+		padding:2px;
+		//border-bottom: 0.5px dashed #666666;
+	}
+	button.title-on{
+		text-align: left;
+		font-weight: bold;
+		font-size:0.8em;
+		color: blue;
+		background-color: white;
+		width: 100%;
+		height: 20px;
+		display: inline-block;
+		//border: 0px solid #666666;
+	}
+	button.title-off{
+		text-align: left;
+		font-size:0.8em;
+		color: black;
+		background-color: white;
+		width: 100%;
+		height: 20px;
+		display: inline-block;
+		//border: 0px solid #666666;
+	}
+	.tittle-a{
+		display: -webkit-box;
+		-webkit-line-clamp: 1;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+	}
+	
+	.screen-list{
+		list-style: none;
+		padding-inline-start: 0px;
+		overflow: auto;
+		  scroll-snap-type: x;
+		  display: flex;
+	}
+	.screen-list::-webkit-scrollbar {
+		  display: none;
+	}
+	
+	.screen-on{
+		display: inline;
+		color: white;
+		background-color: black;
+		border-radius: 30px;
+		width: auto;
+		padding: 2px 5px 2px 5px;
+		margin: 2px;
+		font-size:.8em;
+		//border: 0px solid #666666;
+	}
+	.screen-off{
+		display: inline;
+		color: #030303;
+		background-color: #f1f1f1;
+		border-radius: 30px;
+		width: auto;
+		padding: 2px 5px 2px 5px;
+		margin: 2px;
+		font-size:.8em;
+		//border: 0px solid #666666;
+	}
+	
+	button.eiga-block{
+		text-align: left;
+		margin: 0 auto;
+		background-color: white;
+		color: black;
+		border: 0.5px solid #888888;
+		border-radius: 8px;
+		width: 260px;
+		height: 
+		display: inline-block;
+		padding: 5px 5px 5px 5px;
+		margin-bottom: 5px;
+		//width: 100%;
+		//height: auto;
+	}
+	button.eiga-block2{
+		text-align: left;
+		margin: 0 auto;
+		background-color: white;
+		color: crimson;
+		width: 100%;
+		height: auto;
+		display: inline-block;
+		padding: 5px 5px 5px 5px;
+		//border: 0px solid #888888;
+		//border-bottom: 1px solid #888888;
+	}
+	button.eiga-block3{
+		text-align: left;
+		margin: 0 auto;
+		background-color: #eeeeee;
+		color: #888888;
+		width: 100%;
+		height: auto;
+		display: inline-block;
+		padding: 5px 5px 5px 5px;
+		//border: 0px solid #888888;
+		//border-bottom: 1px solid #888888;
+	}
+	.aaaa{
+		display: flex;
+		justify-content: space-between;
+		//margin-top: 5px;
+	}
+	.eiga-time{
+		width: 30%;
+		font-size:1em;
+		//font-weight: bold;
+	}
+	.eiga-name{
+		width: 70%;
+		text-align: left;
+		font-size:1.2em;
+		font-weight: bold;
+		display: -webkit-box;
+		-webkit-line-clamp: 1;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+	}
+	.eiga-eirin{
+		text-align: right;
+		width: 35px;
+	}
+	.options2{
+		color: #707070;
+		border-radius: 20px;
+		height: 18px;
+		font-size:0.9em;
+		//border: .5px solid #707070;
+		//background-color: white;
+		//padding: 1px 3px 1px 3px;
+	}
+	
+	.bbbb{
+		display: flex;
+		justify-content: space-between;
+		margin-top: 5px;
+	}
+	.eiga-option{
+	}
+	.options{
+		color: #707070;
+		font-size:0.9em;
+	}
+	.eiga-theater{
+		text-align: right;
+		color: #707070;
+		font-size:0.9em;
+	}
+
+</style>

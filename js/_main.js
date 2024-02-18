@@ -16,7 +16,7 @@ function viewList(newTitle) {
 		var now = new Date(document.getElementById('cal').value);
 
 		if(!now.getTime()){
-			var now = new Date('2022/02/12 06:00');
+			var now = new Date('2022/02/12 09:00');
 			//document.getElementById('timeschedule2').textContent = "エラー";
 			//document.getElementById('b0').checked = "";
 			//console.log('b');
@@ -298,7 +298,7 @@ function viewList(newTitle) {
 
 	window.addEventListener('load', () => {
 		//const now = new Date();
-		  const now = new Date('2022/02/12 06:00');
+		  const now = new Date('2022/02/12 09:00');
 		  now.setMinutes(now.getMinutes() - now.getTimezoneOffset());
 		  document.getElementById('cal').value = now.toISOString().slice(0, -8);
 		document.getElementById('cal').min   = now.toISOString().slice(0, -8);
