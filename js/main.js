@@ -129,7 +129,7 @@ function viewList(newTitle) {
 			liLast = document.createElement('div');
 			liLast.id = 'eiga-theater-'+i;
 			liLast.className = 'eiga-theater';
-			liLast.innerHTML = theater_name+" - スクリーン"+screen_num;
+			liLast.innerHTML = theater_name+" - "+screen_num;
 			element.appendChild(liLast);
 			element = "";
 			liLast = "";

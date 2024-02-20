@@ -55,12 +55,13 @@
 		scroll-snap-type: x;
 		display: flex;
 		align-content:flex-start;
-		padding: 0px 10px 10px 10px;
+		padding: 0px 10px 10px 0px;
 		overflow-y: scroll;
 		/*スクロールバー非表示（IE・Edge）*/
 		-ms-overflow-style: none;
 		/*スクロールバー非表示（Firefox）*/
 		scrollbar-width: none;
+		//background-color: #eeeeee;
 		//text-align: center;
 		//border-top: .5px solid #888888;
 	}
