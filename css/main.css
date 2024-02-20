@@ -38,6 +38,13 @@
 		font-size:1.5em;
 	}
 
+	main{
+		display: flex;
+	}
+	.left{
+		padding: 0px 10px 10px 10px;
+	}
+
 	.timeschedule{
 		list-style: none;
 		padding-inline-start: 0px;
