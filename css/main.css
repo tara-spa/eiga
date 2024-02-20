@@ -41,7 +41,9 @@
 	main{
 		display: flex;
 	}
+
 	.left{
+		width: 260px;
 		padding: 0px 10px 10px 10px;
 	}
 
