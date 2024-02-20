@@ -40,11 +40,12 @@
 
 	main{
 		display: flex;
+		align-content:flex-start;
+		padding: 0px 10px 10px 10px;
 	}
 
 	.left{
 		width: 260px;
-		padding: 0px 10px 10px 10px;
 	}
 
 	.timeschedule{
