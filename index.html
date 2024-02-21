@@ -41,7 +41,8 @@
 
 <div>
 	<ul id="cinema-list" class="cinema-list">
-		<li><button id="新宿ピカデリー" class="on" onclick="clickCinema('新宿ピカデリー');"><div class="cinema-a">新宿ピカデリー</div></button></li>
+		<li><button id="TOHOシネマズ新宿" class="on" onclick="clickCinema('TOHOシネマズ新宿');"><div class="cinema-a">TOHOシネマズ新宿</div></button></li>
+		<li><button id="新宿ピカデリー" class="off" onclick="clickCinema('新宿ピカデリー');"><div class="cinema-a">新宿ピカデリー</div></button></li>
 		<li><button id="テアトル新宿" class="off" onclick="clickCinema('テアトル新宿');"><div class="cinema-a">テアトル新宿</div></button></li>
 		<li><button id="新宿武蔵野館" class="off" onclick="clickCinema('新宿武蔵野館');"><div class="cinema-a">新宿武蔵野館</div></button></li>
 		<li><button id="シネマート新宿" class="off" onclick="clickCinema('シネマート新宿');"><div class="cinema-a">シネマート新宿</div></button></li>
@@ -49,7 +50,6 @@
 		<li><button id="K's cinema" class="off" onclick="clickCinema('K&rsquo;s cinema');"><div class="cinema-a">K's cinema</div></button></li>
 		<li><button id="新宿シネマカリテ" class="off" onclick="clickCinema('新宿シネマカリテ');"><div class="cinema-a">新宿シネマカリテ</div></button></li>
 		<li><button id="新宿バルト9" class="off" onclick="clickCinema('新宿バルト9');"><div class="cinema-a">新宿バルト9</div></button></li>
-		<li><button id="TOHOシネマズ新宿" class="off" onclick="clickCinema('TOHOシネマズ新宿');"><div class="cinema-a">TOHOシネマズ新宿</div></button></li>
 		<li><button id="109シネマズプレミアム新宿" class="off" onclick="clickCinema('109シネマズプレミアム新宿');"><div class="cinema-a">109シネマズプレミアム新宿</div></button></li>
 	</ul>
 </div>
@@ -57,23 +57,42 @@
 </section>
 
 <main>
-
 <section class="left" id="left">
 <div id="timeschedule2" class="timeschedule2">
 <h2>選択映画</h2>
-<button class="eiga-block" id="eiga-block">
-	<div class="aaaa">
-		<div class="eiga-time" id="eiga-time">09:20～12:10</div>
-		<div class="eiga-name" id="eiga-name">ウエスト・サイド・ストーリー</div>
-	</div>
-	<div class="bbbb">
-		<div class="eiga-option">
-			<span class="options" id="eiga-option">IMAXレーザー</span>
-			<span class="options" id="eiga-option">字幕</span>
-			<span class="options" id="eiga-option">PG12</span>
+<button class="eiga-block3" id="eiga-block3">
+	<div class="cccc">
+		<div class="time">
+			<div class="time-sta">9:20</div>
+			<div class="time-end">12:10</div>
 		</div>
-		<div class="eiga-theater" id="eiga-theater">TOHOシネマズ新宿 - 10</div>
+		<div class="detail">
+			<div class="title">
+				ウエスト・サイド・ストーリー
+			</div>
+			<div class="options">
+				IMAXレーザー 字幕 PG12
+			</div>
+			<div class="theater">
+				TOHOシネマズ新宿 - 10
+			</div>
+		</div>
 	</div>
+
+<!--
+	<div class="cccc">
+		<div class="cccc-time" id="cccc-time">09:20～12:10</div>
+		<div class="cccc-name" id="cccc-name">ウエスト・サイド・ストーリー</div>
+	</div>
+	<div class="dddd">
+		<div class="dddd-option">
+			<span class="dddd-options" id="dddd-option">IMAXレーザー</span>
+			<span class="dddd-options" id="dddd-option">字幕</span>
+			<span class="dddd-options" id="dddd-option">PG12</span>
+		</div>
+		<div class="dddd-theater" id="dddd-theater">TOHOシネマズ新宿 - 10</div>
+	</div>
+-->
 </button>
 </div>
 
