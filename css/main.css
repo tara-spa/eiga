@@ -339,8 +339,8 @@
 		display: flex;
 	}
 	.bd-2{
-		width: 166px;
-		padding: 0px 9px 0px 0px;
+		width: 170px;
+		margin: 0px 5px 0px 0px;
 	}
 	.options{
 		font-size: .9em;
