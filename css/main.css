@@ -170,7 +170,7 @@
 		margin: 0 auto;
 		background-color: white;
 		color: black;
-		border: 0.5px solid #e1e1e1;
+		border: 1px solid #e1e1e1;
 		border-radius: 8px;
 		width: 260px;
 		height: 50px;
@@ -299,7 +299,7 @@
 		margin: 0 auto;
 		background-color: white;
 		color: black;
-		border: .5px solid #e1e1e1;
+		border: 1px solid #e1e1e1;
 		border-radius: 8px;
 		width: 260px;
 		height: 58px;
@@ -379,9 +379,10 @@
 	}
 
 	.eiga-block2:hover{
-		background-color: #f9f9f9;
+		//background-color: #f9f9f9;
+		border: 1px solid #0283C5;
 	}
-
+	
 	.eiga-block2:hover .add{
 		color: white;
 		background-color: #0283C5;
