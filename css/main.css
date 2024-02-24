@@ -302,25 +302,18 @@
 		border: .5px solid #e1e1e1;
 		border-radius: 8px;
 		width: 260px;
-		height: 60px;
+		height: 58px;
 		display: inline-block;
 		padding: 5px 5px 5px 5px;
 		margin-bottom: 5px;
-	}
-
-	.eiga-block2:hover {
-		color: white;
-		background-color: #0283C5;
-	}
-
-	.block{
 		display: flex;
 	}
+
 	.time{
-		width: 18%;
+		width: 35px;
 		font-size: 1.2em;
 		text-align: center;
-		margin: 0px 0px 0px 0px;
+		margin: auto;
 	}
 
 	.time-sta{
@@ -328,8 +321,8 @@
 	}
 
 	.detail{
-		width: 82%;
-		padding: 0px 5px 0px 5px;
+		width: 210px;
+		padding: 0px 0px 0px 5px;
 	}
 	
 	.title{
@@ -342,6 +335,13 @@
 		overflow: hidden;
 	}
 	
+	.bd-1{
+		display: flex;
+	}
+	.bd-2{
+		width: 150px;
+		padding: 0px 9px 0px 0px;
+	}
 	.options{
 		font-size: .9em;
 		text-align: right;
@@ -351,6 +351,39 @@
 	.theater{
 		font-size: .9em;		
 		text-align: right;
+	}
+
+	.add{
+		margin: 6px 0px 0px 10px;
+		padding: 2px 5px 2px 5px;
+		text-align: center;
+		background-color: #f0f0f0;
+		border: 0px solid #e1e1e1;
+		border-radius: 6px;
+		width: 30px;
+		height: 20px;
+		font-size: 1.3em;
+	}
+	.subtract{
+		margin: 6px 0px 0px 10px;
+		padding: 2px 5px 2px 5px;
+		text-align: center;
+		background-color: #f0f0f0;
+		border: 0px solid #e1e1e1;
+		border-radius: 6px;
+		width: 30px;
+		height: 20px;
+		font-size: 1.3em;
+	}
+
+	.eiga-block2:hover .add{
+		color: white;
+		background-color: #0283C5;
+	}
+
+	.eiga-block2:hover .subtract{
+		color: white;
+		background-color: black;
 	}
 
 
