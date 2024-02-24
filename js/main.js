@@ -36,135 +36,60 @@ function viewList(newTitle) {
 			var time = json[i].between_time.split("～");
 
 			if(i == 0 || screen_num != json[i-1]["screen_num"]){
-				let element = document.getElementById('timeschedule');
-				let liLast = document.createElement('div');
-				liLast.id = 'screen_num-'+screen_num;
-				liLast.className = 'timeschedule2';
-				liLast.innerHTML = "";
-				//liLast.setAttribute('onclick', 'clickBlock("eiga-block-'+i+'")');
-				element.appendChild(liLast);
-				element = "";
-				liLast = "";
-				//console.log(i);
-		
-				element = document.getElementById('screen_num-'+screen_num);
-				liLast = document.createElement('h2');
-				liLast.innerHTML = "スクリーン"+json[i]["screen_num"];
-				element.appendChild(liLast);
-				element = "";
-				liLast = "";
+				docGetElementById('timeschedule', 'div', 'screen_num-'+screen_num, 'timeschedule2', "", "", "");
+					
+				docGetElementById('screen_num-'+screen_num, 'h2', "", "", "スクリーン"+json[i]["screen_num"], "", "");
 			}
 
-			element = document.getElementById('screen_num-'+screen_num);
-			liLast = document.createElement('button');
-			liLast.id = 'eiga-block-'+i;
-			liLast.className = 'eiga-block2';
-			liLast.innerHTML = "";
-			liLast.setAttribute('onclick', 'clickBlock("eiga-block-'+i+'")');
-			element.appendChild(liLast);
-			element = "";
-			liLast = "";
+			docGetElementById('screen_num-'+screen_num, 'button', 'eiga-block-'+i, 'eiga-block2', "", 'onclick', 'clickBlock("eiga-block-'+i+'")');
 
-			element = document.getElementById('eiga-block-'+i);
-			liLast = document.createElement('div');
-			liLast.id = 'time-'+i;
-			liLast.className = 'time';
-			liLast.innerHTML = "";
-			element.appendChild(liLast);
-			element = "";
-			liLast = "";
-
-			element = document.getElementById('time-'+i);
-			liLast = document.createElement('div');
-			//liLast.id = 'time-'+i;
-			liLast.className = 'time-sta';
-			liLast.innerHTML = time[0];
-			element.appendChild(liLast);
-			element = "";
-			liLast = "";
-
-			element = document.getElementById('time-'+i);
-			liLast = document.createElement('div');
-			//liLast.id = "";
-			//liLast.className = "";
-			liLast.innerHTML = "||";
-			element.appendChild(liLast);
-			element = "";
-			liLast = "";
-
-			element = document.getElementById('time-'+i);
-			liLast = document.createElement('div');
-			//liLast.id = 'time-'+i;
-			liLast.className = 'time-sta';
-			liLast.innerHTML = time[1];
-			element.appendChild(liLast);
-			element = "";
-			liLast = "";
-
-			element = document.getElementById('eiga-block-'+i);
-			liLast = document.createElement('div');
-			liLast.id = 'detail-'+i;
-			liLast.className = 'detail';
-			liLast.innerHTML = "";
-			element.appendChild(liLast);
-			element = "";
-			liLast = "";
-
-			element = document.getElementById('detail-'+i);
-			liLast = document.createElement('div');
-			liLast.id = 'title-'+i;
-			liLast.className = 'title';
-			liLast.innerHTML = title;
-			element.appendChild(liLast);
-			element = "";
-			liLast = "";
-
-			element = document.getElementById('detail-'+i);
-			liLast = document.createElement('div');
-			liLast.id = 'bd-1-'+i;
-			liLast.className = 'bd-1';
-			liLast.innerHTML = "";
-			element.appendChild(liLast);
-			element = "";
-			liLast = "";
-
-			element = document.getElementById('bd-1-'+i);
-			liLast = document.createElement('div');
-			liLast.id = 'bd-2-'+i;
-			liLast.className = 'bd-2';
-			liLast.innerHTML = "";
-			element.appendChild(liLast);
-			element = "";
-			liLast = "";
-
-			element = document.getElementById('bd-2-'+i);
-			liLast = document.createElement('div');
-			liLast.id = 'options-'+i;
-			liLast.className = 'options';
-			liLast.innerHTML = option+" "+eirin;
-			element.appendChild(liLast);
-			element = "";
-			liLast = "";						
-
-			element = document.getElementById('bd-2-'+i);
-			liLast = document.createElement('div');
-			liLast.id = 'theater-'+i;
-			liLast.className = 'theater';
-			liLast.innerHTML = theater_name+" - "+screen_num;
-			element.appendChild(liLast);
-			element = "";
-			liLast = "";
-
-			element = document.getElementById('bd-1-'+i);
-			liLast = document.createElement('div');
-			liLast.id = 'add-'+i;
-			liLast.className = 'add';
-			liLast.innerHTML = "+";
-			element.appendChild(liLast);
-			element = "";
-			liLast = "";
+			docGetElementById('eiga-block-'+i, 'div', 'time-'+i, 'time', "", "", "");
+			
+			docGetElementById('time-'+i, 'div', "", 'time-sta', time[0], "", "");
+			
+			docGetElementById('time-'+i, 'div', "", "", "||", "", "");
+			
+			docGetElementById('time-'+i, 'div', "", 'time-end', time[1], "", "");
+			
+			docGetElementById('eiga-block-'+i, 'div', 'detail-'+i, 'detail', "", "", "");
+			
+			docGetElementById('detail-'+i, 'div', 'title-'+i, 'title', title, "", "");
+			
+			docGetElementById('detail-'+i, 'div', 'bd1-'+i, 'bd1', "", "", "");
+			
+			docGetElementById('bd1-'+i, 'div', 'bd2-'+i, 'bd2', "", "", "");
+			
+			docGetElementById('bd2-'+i, 'div', 'options-'+i, 'options', option+" "+eirin, "", "");
+			
+			docGetElementById('bd2-'+i, 'div', 'theater-'+i, 'theater', theater_name+" - "+screen_num, "", "");
+			
+			docGetElementById('bd1-'+i, 'div', 'add-'+i, 'add', "+", "", "");
 
 			document.getElementById('eiga-block-'+i).style.display = "";
 		}
 	});
 }
+
+function docGetElementById(ElementById, Element, Id, ClassName, InnerHTML, Attribute_A,Attribute_B){
+	element = document.getElementById(ElementById);
+	liLast = document.createElement(Element);
+	if(Id){
+		liLast.id = Id;
+	}
+	if(ClassName){
+		liLast.className = ClassName;
+	}
+	if(InnerHTML){
+		liLast.innerHTML = InnerHTML;
+	}
+	if(Attribute_A){
+		liLast.setAttribute(Attribute_A, Attribute_B);
+	}
+	element.appendChild(liLast);
+	element = "";
+	liLast = "";
+}
+
+
+
+
