@@ -343,12 +343,14 @@
 		margin: 0px 5px 0px 0px;
 	}
 	.options{
+		height: 12px;
 		font-size: .9em;
 		text-align: right;
 		margin: 3px 0px 3px 0px;
 	}
 
 	.theater{
+		height: 12px;
 		font-size: .9em;		
 		text-align: right;
 	}

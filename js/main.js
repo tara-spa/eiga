@@ -32,9 +32,9 @@ function viewList(newTitle) {
 			var theater_name = json[i].theater_name;
 			var screen_num = json[i].screen_num;
 			var option = json[i].option;
-			var eirin = json[i].eirin;
+			var eirin = json[i].eirin;			
+			var time = json[i].between_time.split("～");
 
-			
 			if(i == 0 || screen_num != json[i-1]["screen_num"]){
 				let element = document.getElementById('timeschedule');
 				let liLast = document.createElement('div');
@@ -45,7 +45,7 @@ function viewList(newTitle) {
 				element.appendChild(liLast);
 				element = "";
 				liLast = "";
-				console.log(i);
+				//console.log(i);
 		
 				element = document.getElementById('screen_num-'+screen_num);
 				liLast = document.createElement('h2');
@@ -58,7 +58,7 @@ function viewList(newTitle) {
 			element = document.getElementById('screen_num-'+screen_num);
 			liLast = document.createElement('button');
 			liLast.id = 'eiga-block-'+i;
-			liLast.className = 'eiga-block';
+			liLast.className = 'eiga-block2';
 			liLast.innerHTML = "";
 			liLast.setAttribute('onclick', 'clickBlock("eiga-block-'+i+'")');
 			element.appendChild(liLast);
@@ -67,69 +67,99 @@ function viewList(newTitle) {
 
 			element = document.getElementById('eiga-block-'+i);
 			liLast = document.createElement('div');
-			liLast.id = 'aaaa-'+i;
-			liLast.className = 'aaaa';
+			liLast.id = 'time-'+i;
+			liLast.className = 'time';
 			liLast.innerHTML = "";
 			element.appendChild(liLast);
 			element = "";
 			liLast = "";
 
-			element = document.getElementById('aaaa-'+i);
+			element = document.getElementById('time-'+i);
 			liLast = document.createElement('div');
-			liLast.id = 'eiga-time-'+i;
-			liLast.className = 'eiga-time';
-			liLast.innerHTML = between_time;
+			//liLast.id = 'time-'+i;
+			liLast.className = 'time-sta';
+			liLast.innerHTML = time[0];
 			element.appendChild(liLast);
 			element = "";
 			liLast = "";
 
-			element = document.getElementById('aaaa-'+i);
+			element = document.getElementById('time-'+i);
 			liLast = document.createElement('div');
-			liLast.id = 'eiga-name-'+i;
-			liLast.className = 'eiga-name';
-			liLast.innerHTML = title;
+			//liLast.id = "";
+			//liLast.className = "";
+			liLast.innerHTML = "||";
+			element.appendChild(liLast);
+			element = "";
+			liLast = "";
+
+			element = document.getElementById('time-'+i);
+			liLast = document.createElement('div');
+			//liLast.id = 'time-'+i;
+			liLast.className = 'time-sta';
+			liLast.innerHTML = time[1];
 			element.appendChild(liLast);
 			element = "";
 			liLast = "";
 
 			element = document.getElementById('eiga-block-'+i);
 			liLast = document.createElement('div');
-			liLast.id = 'bbbb-'+i;
-			liLast.className = 'bbbb';
+			liLast.id = 'detail-'+i;
+			liLast.className = 'detail';
 			liLast.innerHTML = "";
 			element.appendChild(liLast);
 			element = "";
 			liLast = "";
 
-			element = document.getElementById('bbbb-'+i);
+			element = document.getElementById('detail-'+i);
 			liLast = document.createElement('div');
-			liLast.id = 'eiga-option-'+i;
-			liLast.className = 'eiga-option';
+			liLast.id = 'title-'+i;
+			liLast.className = 'title';
+			liLast.innerHTML = title;
+			element.appendChild(liLast);
+			element = "";
+			liLast = "";
+
+			element = document.getElementById('detail-'+i);
+			liLast = document.createElement('div');
+			liLast.id = 'bd-1-'+i;
+			liLast.className = 'bd-1';
 			liLast.innerHTML = "";
 			element.appendChild(liLast);
 			element = "";
 			liLast = "";
 
-			if(option != "" || eirin != ""){
-				element = document.getElementById('eiga-option-'+i);
-				liLast = document.createElement('span');
-				liLast.id = 'eiga-options-'+i;
-				liLast.className = 'options';
-				if(option != "" && eirin != ""){
-					liLast.innerHTML = option+" "+eirin;
-				}else if(option != ""){
-					liLast.innerHTML = eirin;						
-				}
-				element.appendChild(liLast);
-				element = "";
-				liLast = "";						
-			}
-
-			element = document.getElementById('bbbb-'+i);
+			element = document.getElementById('bd-1-'+i);
 			liLast = document.createElement('div');
-			liLast.id = 'eiga-theater-'+i;
-			liLast.className = 'eiga-theater';
+			liLast.id = 'bd-2-'+i;
+			liLast.className = 'bd-2';
+			liLast.innerHTML = "";
+			element.appendChild(liLast);
+			element = "";
+			liLast = "";
+
+			element = document.getElementById('bd-2-'+i);
+			liLast = document.createElement('div');
+			liLast.id = 'options-'+i;
+			liLast.className = 'options';
+			liLast.innerHTML = option+" "+eirin;
+			element.appendChild(liLast);
+			element = "";
+			liLast = "";						
+
+			element = document.getElementById('bd-2-'+i);
+			liLast = document.createElement('div');
+			liLast.id = 'theater-'+i;
+			liLast.className = 'theater';
 			liLast.innerHTML = theater_name+" - "+screen_num;
+			element.appendChild(liLast);
+			element = "";
+			liLast = "";
+
+			element = document.getElementById('bd-1-'+i);
+			liLast = document.createElement('div');
+			liLast.id = 'add-'+i;
+			liLast.className = 'add';
+			liLast.innerHTML = "+";
 			element.appendChild(liLast);
 			element = "";
 			liLast = "";
