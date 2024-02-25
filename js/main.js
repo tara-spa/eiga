@@ -21,11 +21,6 @@ function viewList(newTitle) {
 		}
 
 		for (var i = 0; i < json.length; i++) {
-			//if(json[i].screen_num == "SCREEN1"){
-			//if(json[i].screen_num == newScreen){ //スクリーンを変数で変える
-			//if(json[i].title == "スパイダーマン ノー・ウェイ・ホーム"){
-			//console.log(json[i]);
-
 			var day = json[i].day;
 			var title = json[i].title;
 			var between_time = json[i].between_time;
