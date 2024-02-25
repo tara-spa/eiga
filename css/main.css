@@ -156,7 +156,6 @@
 		background-color: #0283C5;
 	}
 
-
 	button.eiga-block2{
 		text-align: left;
 		margin: 0 auto;
@@ -165,7 +164,7 @@
 		border: 1px solid #e1e1e1;
 		border-radius: 8px;
 		width: 260px;
-		height: 58px;
+		height: 59px;
 		display: inline-block;
 		padding: 5px 5px 5px 5px;
 		margin-bottom: 5px;
@@ -174,13 +173,14 @@
 
 	.time{
 		width: 35px;
+		height: 47px;
 		font-size: 1.2em;
 		text-align: center;
 		margin: auto;
 	}
 
 	.time-sta{
-		margin: 0px 0px -3px 0px;
+		margin: 1px 0px -3px 0px;
 	}
 
 	.detail{
