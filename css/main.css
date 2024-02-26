@@ -28,13 +28,15 @@
 	}
 
 	header{
+		background-color: #0283C5;
 		padding: 10px 10px 10px 10px;
-		border-bottom: 1px solid #888888;
+		border-bottom: 2px solid #e1e1e1;
 	}
 
 	h1{
 		margin: 0px;
 		font-size:1.2em;
+		color: white;
 	}
 
 	main{
