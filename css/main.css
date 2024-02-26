@@ -260,7 +260,7 @@
 		display: inline-flex;
 		align-items: center;
 		position: relative;
-		margin: 5px 10px 5px 10px;
+		margin: 10px 10px 0px 10px;
 	}
 	
 	.selectbox-3 select {
