@@ -60,10 +60,10 @@
 
 	.tab{
 		display: flex;
-		margin: 0px 0px 10px 0px;
+		margin: 10px 0px 10px 0px;
 	}
 
-	#tab-button{
+	.tab button{
 		text-align: center;
 		margin: 0 auto;
 		width: 260px;
@@ -75,7 +75,7 @@
 		font-weight: bold;	
 	}
 	
-	#tab-button.tab-on{
+	.tab-left-on{
 		background-color: white;
 		color: black;
 		border-top-right-radius: 8px;
@@ -84,15 +84,35 @@
 		border-right: 1px solid #0283C5;
 		border-bottom: 0px solid #0283C5;
 	}
+	
+	.tab-left-off{
+		background-color: #f8f8f8;
+		color: black;
+		border-top-right-radius: 8px;
+		border-top: 1px solid #e1e1e1;
+		border-left: 0px solid #e1e1e1;
+		border-right: 0px solid #e1e1e1;
+		border-bottom: 1px solid #0283C5;
+	}
 
-	#tab-button.tab-off{
+	.tab-right-on{
+		background-color: white;
+		color: black;
+		border-top-left-radius: 8px;
+		border-top: 1px solid #0283C5;
+		border-left: 1px solid #0283C5;
+		border-right: 0px solid #0283C5;
+		border-bottom: 0px solid #0283C5;
+	}
+
+	.tab-right-off{
 		background-color: #f8f8f8;
 		color: black;
 		border-top-left-radius: 8px;
 		border-top: 1px solid #e1e1e1;
 		border-left: 1px solid #e1e1e1;
 		border-right: 0px solid #e1e1e1;
-		border-bottom: 0px solid #e1e1e1;
+		border-bottom: 1px solid #0283C5;
 	}
 
 	.left{
