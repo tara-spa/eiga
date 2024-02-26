@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 	<title>映画館スケジュール</title>
 	<meta name="description" content="映画館のはしごサイト">
-	<link rel="stylesheet" href="css/main.css?0226_0034">
+	<link rel="stylesheet" href="css/main.css?0227_0010">
 </head>
 
 <body>
@@ -16,7 +16,28 @@
 	<h1>映画館上映スケジュール</h1>
 </header>
 
+<section class="aaaaa" id="aaaaa">
+	<label class="selectbox-3">
+		<select id="select-date">
+			<option value="20240220" selected="selected">2/20(火)</option>
+			<option value="20240221">2/21(水)</option>
+			<option value="20240222">2/22(木)</option>
+			<option value="20240223">2/23(金)</option>
+			<option value="20240224">2/24(土)</option>
+		</select>
+		<select id="select-area">
+			<option value="1" selected="selected">新宿</option>
+			<option value="2">池袋</option>
+			<option value="3">渋谷</option>
+			<option value="4">日比谷・有楽町・銀座</option>
+			<option value="5">市川</option>
+		</select>			
+	</label>
+</section>
+
+
 <section class="menu" id="menu">
+<!--
 	<ul id="date" class="date">
 		<li><button id="20240220" class="on" onclick="clickDate('20240220');"><div class="cinema-a">2/20(火)</div></button></li>
 		<li><button id="20240221" class="off" onclick="clickDate('20240221');"><div class="cinema-a">2/21(水)</div></button></li>
@@ -34,7 +55,7 @@
 		<li><button id="area-4" class="off" onclick="clickArea('area-4');"><div class="cinema-a">日比谷・有楽町・銀座</div></button></li>
 		<li><button id="area-5" class="off" onclick="clickArea('area-5');"><div class="cinema-a">市川</div></button></li>
 	</ul>
-
+-->
 	<ul id="cinema-list" class="cinema-list">
 		<li><button id="cinema-1" class="on" onclick="clickCinema('cinema-1');"><div class="cinema-a">TOHOシネマズ新宿</div></button></li>
 		<li><button id="cinema-2" class="off" onclick="clickCinema('cinema-2');"><div class="cinema-a">新宿ピカデリー</div></button></li>

@@ -33,3 +33,12 @@ function clickBlock(newBlock) {
 	console.log(newBlock);
 }
 
+function inputChange(event){
+	console.log(event.currentTarget.value);
+}
+
+let selectdate = document.getElementById('select-date');
+selectdate.addEventListener('change', inputChange);
+
+let selectarea = document.getElementById('select-area');
+selectarea.addEventListener('change', inputChange);
