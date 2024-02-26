@@ -57,3 +57,13 @@ selectcinema.addEventListener('change', inputChange);
 function domRemove(){
 	document.getElementById('timeschedule').remove();
 }
+
+function clickTab(newBlock) {
+	if(newBlock == 'left'){
+		document.getElementById('tab-left').className = 'tab-left-on'
+		document.getElementById('tab-right').className = 'tab-right-off'		
+	}else{
+		document.getElementById('tab-left').className = 'tab-left-off'
+		document.getElementById('tab-right').className = 'tab-right-on'		
+	}
+}
