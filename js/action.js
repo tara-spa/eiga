@@ -34,7 +34,14 @@ function clickBlock(newBlock) {
 }
 
 function inputChange(event){
-	console.log(event.currentTarget.value);
+	if(document.getElementById('timeschedule')){
+		domRemove();
+	}
+	viewList();
+	//console.log(event.currentTarget.value);
+	//console.log(document.getElementById('select-date').value);
+	//console.log(document.getElementById('select-area').value);
+	//console.log(document.getElementById('select-cinema').value);
 }
 
 let selectdate = document.getElementById('select-date');
@@ -45,3 +52,8 @@ selectarea.addEventListener('change', inputChange);
 
 let selectcinema = document.getElementById('select-cinema');
 selectcinema.addEventListener('change', inputChange);
+
+
+function domRemove(){
+	document.getElementById('timeschedule').remove();
+}

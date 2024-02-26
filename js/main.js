@@ -1,8 +1,15 @@
 viewList();
 
 function viewList(newTitle) {
-	var timea = "20220212"
-	fetch("./data/"+timea+"/toho-shinjuku.json")
+	var timea = document.getElementById('select-date').value;
+	var area  = document.getElementById('select-area').value;
+	var cinema  = document.getElementById('select-cinema').value;
+
+	console.log("./data/"+timea+"/"+area+"-"+cinema+".json");	
+	//var timea = "20220212"
+	//fetch("./data/"+timea+"/toho-shinjuku.json")
+
+	fetch("./data/"+timea+"/"+area+"-"+cinema+".json")
 	.then(response => {
 		//console.log(response);
 		if(response.ok){
@@ -30,7 +37,12 @@ function viewList(newTitle) {
 			var eirin = json[i].eirin;			
 			var time = json[i].between_time.split("～");
 
+			if(i == 0){
+				docGetElementById('main', 'section', 'timeschedule', 'timeschedule', "", "", "");
+			}
+
 			if(i == 0 || screen_num != json[i-1]["screen_num"]){
+
 				docGetElementById('timeschedule', 'div', 'screen_num-'+screen_num, 'timeschedule2', "", "", "");
 					
 				docGetElementById('screen_num-'+screen_num, 'h2', "", "", "スクリーン"+json[i]["screen_num"], "", "");
