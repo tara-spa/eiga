@@ -277,7 +277,7 @@
 	.selectbox-3 select {
 		appearance: none;
 		max-width: 180px;
-		min-width: 70px;
+		min-width: 110px;
 		height: 40px;
 		padding: .4em calc(.8em + 30px) .4em .8em;
 		border: 0px solid #0283C5;
