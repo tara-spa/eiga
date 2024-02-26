@@ -42,3 +42,6 @@ selectdate.addEventListener('change', inputChange);
 
 let selectarea = document.getElementById('select-area');
 selectarea.addEventListener('change', inputChange);
+
+let selectcinema = document.getElementById('select-cinema');
+selectcinema.addEventListener('change', inputChange);
