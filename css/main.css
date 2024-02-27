@@ -218,6 +218,21 @@
 		background-color: #0283C5;
 	}
 
+	button.eiga-block{
+		text-align: left;
+		margin: 0 auto;
+		background-color: white;
+		color: black;
+		border: 1px solid crimson;
+		border-radius: 8px;
+		width: 260px;
+		height: 59px;
+		display: inline-block;
+		padding: 5px 5px 5px 5px;
+		margin: 0px 0px 5px 2px;
+		display: flex;
+	}
+
 	button.eiga-block2{
 		text-align: left;
 		margin: 0 auto;

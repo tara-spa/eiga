@@ -5,7 +5,8 @@ function viewList(newTitle) {
 	var area  = document.getElementById('select-area').value;
 	var cinema  = document.getElementById('select-cinema').value;
 
-	console.log("./data/"+timea+"/"+area+"-"+cinema+".json");	
+	//console.log("./data/"+timea+"/"+area+"-"+cinema+".json");	
+
 	//var timea = "20220212"
 	//fetch("./data/"+timea+"/toho-shinjuku.json")
 
@@ -48,7 +49,7 @@ function viewList(newTitle) {
 				docGetElementById('screen_num-'+screen_num, 'h2', "", "", "スクリーン"+json[i]["screen_num"], "", "");
 			}
 
-			docGetElementById('screen_num-'+screen_num, 'button', 'eiga-block-'+i, 'eiga-block2', "", 'onclick', 'clickBlock("eiga-block-'+i+'")');
+			docGetElementById('screen_num-'+screen_num, 'button', 'eiga-block-'+i, 'eiga-block2', "", 'onclick', 'clickBlock("'+i+'")');
 
 			docGetElementById('eiga-block-'+i, 'div', 'time-'+i, 'time', "", "", "");
 			
@@ -59,6 +60,7 @@ function viewList(newTitle) {
 			docGetElementById('time-'+i, 'div', "", 'time-end', time[1], "", "");
 			
 			docGetElementById('eiga-block-'+i, 'div', 'detail-'+i, 'detail', "", "", "");
+			//docGetElementById('eiga-block-'+i, 'div', 'detail-'+i, 'detail', "", "", "");
 			
 			docGetElementById('detail-'+i, 'div', 'title-'+i, 'title', title, "", "");
 			
