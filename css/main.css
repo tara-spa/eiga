@@ -79,7 +79,7 @@
 		left: 50%;
 		bottom: 0px;
 		display: inline-block;
-		width: 60px;
+		width: 80px;
 		height: 5px;
 		-webkit-transform: translateX(-50%);
 		transform: translateX(-50%);
@@ -107,6 +107,15 @@
 		font-weight: bold;	
 		border: 0px solid #0283C5;
 		color: black;	  
+	}
+	
+	.cunt-cinema {
+		font-size: .8em;
+		padding: 3px 5px 3px 5px;
+		margin: 0px 0px 0px 3px;
+		border-radius: 10px;
+		background-color: #f0f0f0;
+		color: black;	
 	}
 
 	.left{
