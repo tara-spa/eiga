@@ -43,6 +43,11 @@
 		margin: 10px 10px 50px 10px;
 	}
 
+	.tab{
+		display: flex;
+		margin: 5px 0px 10px 0px;
+	}
+
 	@media (min-width: 480px){
 		main{
 			display: flex;
@@ -51,6 +56,9 @@
 		.timeschedule{
 			margin: 0px 0px 0px 5px;
 		}
+		.tab{
+			display: none;
+		}
 	}
 	@media (max-width: 480px){
 		.left{
@@ -58,12 +66,36 @@
 		}
 	}
 
-	.tab{
-		display: flex;
-		margin: 10px 0px 10px 0px;
+	.tab button{
+	  position: relative;
+	  display: inline-block;
+	  margin-bottom: 1em;
+	}
+	
+	/*以下で線を表示*/
+	.tab button:before{
+	  content: '';
+	  position: absolute;
+	  left: 50%;
+	  bottom: 0px;/*線の上下位置*/
+	  display: inline-block;
+	  width: 60px;/*線の長さ*/
+	  height: 5px;/*線の太さ*/
+	  -webkit-transform: translateX(-50%);
+	  transform: translateX(-50%);/*位置調整*/
+	  border-radius: 2px;/*線の丸み*/
+	}
+	
+	.tab-on:before{
+	  background-color: #0283C5;/*線の色*/
+	}
+
+	.tab-off:before{
+	  background-color: #e1e1e1;		
 	}
 
 	.tab button{
+		background-color: white;
 		text-align: center;
 		margin: 0 auto;
 		width: 260px;
@@ -73,46 +105,7 @@
 		margin: 0px 0px 0px 0px;
 		font-size: .8em;
 		font-weight: bold;	
-	}
-
-	.tab-left-on{
-		background-color: white;
-		color: black;
-		border-top-right-radius: 8px;
-		border-top: 1px solid #0283C5;
-		border-left: 0px solid #0283C5;
-		border-right: 1px solid #0283C5;
-		border-bottom: 0px solid #0283C5;
-	}
-	
-	.tab-left-off{
-		background-color: #f8f8f8;
-		color: black;
-		border-top-right-radius: 8px;
-		border-top: 1px solid #e1e1e1;
-		border-left: 0px solid #e1e1e1;
-		border-right: 1px solid #e1e1e1;
-		border-bottom: 1px solid #0283C5;
-	}
-
-	.tab-right-on{
-		background-color: white;
-		color: black;
-		border-top-left-radius: 8px;
-		border-top: 1px solid #0283C5;
-		border-left: 1px solid #0283C5;
-		border-right: 0px solid #0283C5;
-		border-bottom: 0px solid #0283C5;
-	}
-
-	.tab-right-off{
-		background-color: #f8f8f8;
-		color: black;
-		border-top-left-radius: 8px;
-		border-top: 1px solid #e1e1e1;
-		border-left: 1px solid #e1e1e1;
-		border-right: 0px solid #e1e1e1;
-		border-bottom: 1px solid #0283C5;
+		border: 0px solid #0283C5;
 	}
 
 	.left{
@@ -340,5 +333,6 @@
 		margin: 0px 2px 0px 2px;
 		//padding: .4em calc(.8em + 30px) .4em .8em;
 	}
+
 
 </style>

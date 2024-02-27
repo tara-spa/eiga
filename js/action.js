@@ -60,13 +60,13 @@ function domRemove(){
 
 function clickTab(newBlock) {
 	if(newBlock == 'left'){
-		document.getElementById('tab-left').className = 'tab-left-on'
-		document.getElementById('tab-right').className = 'tab-right-off'
+		document.getElementById('tab-left').className = 'tab-on'
+		document.getElementById('tab-right').className = 'tab-off'
 		document.getElementById('timeschedule').style.display = "";
 		document.getElementById('left').style.display = "none";
 	}else{
-		document.getElementById('tab-left').className = 'tab-left-off'
-		document.getElementById('tab-right').className = 'tab-right-on'		
+		document.getElementById('tab-left').className = 'tab-off'
+		document.getElementById('tab-right').className = 'tab-on'		
 		document.getElementById('timeschedule').style.display = "none";
 		document.getElementById('left').style.display = "inline";
 	}
