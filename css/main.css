@@ -84,7 +84,6 @@
 		-webkit-transform: translateX(-50%);
 		transform: translateX(-50%);
 		border-radius: 2px;
-		color: black;	  
 	}
 	
 	.tab-on:before{
@@ -107,6 +106,7 @@
 		font-size: .8em;
 		font-weight: bold;	
 		border: 0px solid #0283C5;
+		color: black;	  
 	}
 
 	.left{
