@@ -56,18 +56,33 @@ function clickBlock(newClick) {
 
 function blockOn() {
 	document.getElementById('cunt-cinema').innerHTML = storage.length;
+
+/* 
+	if(storage.length > 0){
+		for (var i = 0; i < storage.length; i++) {
+			// 昇順
+			storage.sort(function(a, b) {
+				return a["start_datetime"] - b["start_datetime"];
+				console.log(a["start_datetime"]);
+	
+			});
+		}
+	}
+*/
+
 	for (let i = 0; i < storage.length; i++) {
 		let key = storage.key(i);
+		//console.log(key);
 
 		var getData = JSON.parse(storage.getItem(key));
-		console.log(getData['between_time']); 
+		//console.log(getData['between_time']); 
 
 		var day = 			getData['day'];
 		var title = 		getData['title'];
 		var between_time = 	getData['between_time'];
 		var theater_name = 	getData['theater_name'];
 		var screen_num = 	getData['screen_num'];
-		var option = 		getData['ption'];
+		var option = 		getData['option'];
 		var eirin = 		getData['eirin'];
 		var time = 			getData['between_time'].split("～");
 
@@ -104,7 +119,6 @@ function blockOn() {
 		docGetElementById('bd2-2-'+key, 'div', 'theater2-'+key, 'theater', theater_name+" - "+screen_num, "", "");
 		
 		docGetElementById('bd1-2-'+key, 'div', 'add2-'+key, 'add', "+", "", "");
-
 
 		document.getElementById('eiga-block2-'+key).style.display = "";
   	}
