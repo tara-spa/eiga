@@ -78,6 +78,7 @@ function blockOn() {
 
 		if(i == 0){
 			docGetElementById('left', 'section', 'timeschedule3', 'timeschedule3', "", "", "");
+			docGetElementById('timeschedule3', 'h2', "", "", "選択映画", "", "");
 		}
 
 		docGetElementById('timeschedule3', 'button', 'eiga-block2-'+key, 'eiga-block2', "", "", "");
