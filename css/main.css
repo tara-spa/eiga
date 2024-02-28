@@ -72,7 +72,6 @@
 		margin-bottom: 1em;
 	}
 	
-	/*以下で線を表示*/
 	.tab button:before{
 		content: '';
 		position: absolute;
@@ -85,10 +84,19 @@
 		transform: translateX(-50%);
 		border-radius: 2px;
 	}
+
+	.tab-on{
+		color: black;	  
+	}
+
+	.tab-off{
+		color: #888888;	  
+	}
 	
 	.tab-on:before{
 		background-color: #0283C5;
 	}
+
 
 	.tab-off:before{
 		background-color: #e1e1e1;		
@@ -106,7 +114,6 @@
 		font-size: .8em;
 		font-weight: bold;	
 		border: 0px solid #0283C5;
-		color: black;	  
 	}
 	
 	.cunt-cinema {
