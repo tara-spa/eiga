@@ -228,9 +228,9 @@
 	button.eiga-block{
 		text-align: left;
 		margin: 0 auto;
-		background-color: white;
-		color: black;
-		border: 1px solid crimson;
+		background-color: #0283C5;
+		color: white;
+		border: 0px solid #e1e1e1;
 		border-radius: 8px;
 		width: 260px;
 		height: 59px;

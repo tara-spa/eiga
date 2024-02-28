@@ -93,7 +93,7 @@ function blockOn() {
 
 		if(i == 0){
 			docGetElementById('left', 'section', 'timeschedule3', 'timeschedule3', "", "", "");
-			docGetElementById('timeschedule3', 'h2', "", "", "選択映画", "", "");
+			docGetElementById('timeschedule3', 'h2', "", "", "2024/02/29(木)", "", "");
 		}
 
 		docGetElementById('timeschedule3', 'button', 'eiga-block2-'+key, 'eiga-block2', "", "", "");
@@ -118,8 +118,6 @@ function blockOn() {
 		
 		docGetElementById('bd2-2-'+key, 'div', 'theater2-'+key, 'theater', theater_name+" - "+screen_num, "", "");
 		
-		docGetElementById('bd1-2-'+key, 'div', 'add2-'+key, 'add', "+", "", "");
-
 		document.getElementById('eiga-block2-'+key).style.display = "";
   	}
 }

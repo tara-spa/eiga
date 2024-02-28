@@ -72,8 +72,6 @@ function viewList(newTitle) {
 			
 			docGetElementById('bd2-'+i, 'div', 'theater-'+i, 'theater', theater_name+" - "+screen_num, "", "");
 			
-			docGetElementById('bd1-'+i, 'div', 'add-'+i, 'add', "+", "", "");
-
 			document.getElementById('eiga-block-'+i).style.display = "";
 		}
 	});
