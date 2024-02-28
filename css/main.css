@@ -22,6 +22,10 @@
 		background:transparent;
 	}
 
+	html {
+		touch-action: manipulation;
+	}
+
 	body{
 		font-family: 'Noto Serif JP', serif;
 		margin: 0;
