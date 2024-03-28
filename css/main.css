@@ -152,8 +152,18 @@
 		//border-top: .5px solid #888888;
 	}
 
-	.timeschedule::-webkit-scrollbar{
+	.timeschedule::-webkit-scrollbar {
+		width: 1px;
+		height: 10px;
 		//display:none;
+	}
+	
+	.timeschedule::-webkit-scrollbar-thumb {
+		background: #0283C5;
+		border-radius: 8px;
+		//border-right: 2px solid transparent; /* 透明なボーダーをつける */
+		//border-left: 4px solid transparent; /* 透明なボーダーをつける */
+		background-clip: padding-box; /* 背景を切り取る */
 	}
 
 	.timeschedule2{
